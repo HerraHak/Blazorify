@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://github.com/aspnet/Blazor">building Awesome stuff with blazor</a>.</p>
+        @(await Html.RenderComponentAsync<Blazorify.Components.Counter>())    
+
+    </div>

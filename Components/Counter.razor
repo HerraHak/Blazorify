@@ -1,0 +1,14 @@
+﻿@page "/Counter"
+
+<div id="counter">
+    <h1>@p</h1>
+    <button onclick="@Increment">Increment</button>
+</div>
+
+@functions{
+    int p = 0;
+    void Increment()
+    {
+        p++;
+    }
+}
